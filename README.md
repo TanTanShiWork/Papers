@@ -1,27 +1,45 @@
-# TTS Related Papers
+# TTS and VC Related Papers
 ## Content
-1. [General](#general)
-2. [Front-end](#front-end)
-3. [Vocoder](#vocoder)
-4. [Multi-lingual](#multi-lingual)
-5. [Expressive](#expressive)
-6. [Voice clone](#voice-clone)
-7. [Singing](#singing)
+1. [Speech Synthesis](#speech-synthesis)
+    1. [General](#general)
+    1. [Front-end](#front-end)
+    1. [Vocoder](#vocoder)
+    1. [Multi-lingual](#multi-lingual)
+    1. [Expressive](#expressive)
+    1. [Voice clone](#voice-clone)
+    1. [Singing](#singing)
+2. [Voice Conversion](#voice-conversion)
 
+## [Speech Synthesis](#content)
 
-## [General](#content)
+### [General](#content)
 
-## [Front-end](#content)
+### [Front-end](#content)
 
-## [Vocoder](#content)
+### [Vocoder](#content)
 
-## [Multi-lingual](#content)
+### [Multi-lingual](#content)
 
-## [Expressive](#content)
+### [Expressive](#content)
 
-## [Voice clone](#content)
-1. **Neural Voice Cloning with a Few Samples,** NIPS, 2018
-[paper](https://arxiv.org/pdf/1802.06006.pdf)
+### [Voice clone](#content)
+voice clone & speaker adaptation & zero/one/few-shot 
+1. **Sample Efficient Adaptive Text-to-Speech.** in ICLR, 2019.
+[pdf](https://arxiv.org/pdf/1809.10460.pdf)
+[demo](https://sample-efficient-adaptive-tts.github.io/demo)
+
+1. **Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis,** in NeurIPS, 2018.
+[pdf](https://arxiv.org/pdf/1806.04558.pdf)
+[demo](https://google.github.io/tacotron/publications/speaker_adaptation)
+
+1. **Fitting New Speakers Based on a Short Untranscribed Sample,** in ICML, 2018.
+[pdf](http://proceedings.mlr.press/v80/nachmani18a/nachmani18a.pdf)
+[demo](https://ytaigman.github.io/fitspk/index.html)
+
+1. **Neural Voice Cloning with a Few Samples,** in NeurIPS, 2018.
+[pdf](https://arxiv.org/pdf/1802.06006.pdf)
 [demo](https://audiodemos.github.io)
 
-## [Singing](#content)
+### [Singing](#content)
+
+## [Voice Conversion](#content)
