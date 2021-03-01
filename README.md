@@ -41,5 +41,8 @@ voice clone & speaker adaptation & zero/one/few-shot
 [demo](https://audiodemos.github.io)
 
 ### [Singing](#content)
+1. **Semi-supervised Learning for Singing Synthesis Timbre,** arXiv, 2020
+[pdf](https://arxiv.org/pdf/2011.02809.pdf)
+[demo](https://mtg.github.io/singing-synthesis-demos/semisupervised/)
 
 ## [Voice Conversion](#content)
