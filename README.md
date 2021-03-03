@@ -24,6 +24,19 @@
 
 ### [Voice clone](#content)
 voice clone & speaker adaptation & zero/one/few-shot 
+<details>
+<summary> <b>AdaSpeech: Adaptive Text to Speech for Custom Voice.</b> ICLR, 2021 
+    <a href="https://arxiv.org/pdf/2103.00993.pdf">pdf</a>
+    <a href="https://speechresearch.github.io/adaspeech/">demo</a>
+    </summary> 
+    
+   - Two challenges: 1.different acoustic conditions between custom voice and source speech; 2. trade-off between fine-tuning parameters (memory storage) and voice quality.
+   - Solution to challenge1: Modeling acoustic conditions in both utterance level and phoneme level. train: both extracting from target speech and add to the phoneme hidden sequence; inference: utt-from reference speech, phoneme-from acoustic predictor(build upon phoneme encoder)
+   - Solution to challenge2: Conditional layer normalization:using speaker embedding as the conditional information to generate the scale and bias vector in layer normalization. In fine-tuning, only adapt the parameters related to the conditional layer normalization(including speaker embedding). The number of CIN = decoder layer * 2 + 1.
+   - Backbone: FastSpeech2. Speaker representation: speaker ID (embedding)-256dim. Vocoder:MelGAN
+   - Source model: LibriTTS(2456 speakers-586h), 16kHz. 20 sentences and 2k steps for adaptation.
+</details>
+
 1. **Sample Efficient Adaptive Text-to-Speech.** in ICLR, 2019.
 [pdf](https://arxiv.org/pdf/1809.10460.pdf)
 [demo](https://sample-efficient-adaptive-tts.github.io/demo)
