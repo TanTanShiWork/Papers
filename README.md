@@ -19,6 +19,18 @@ ________________________________________________________________________________
 
 ### [Multi-speaker](#content)
 <details>
+<summary> <b>Can Speaker Augmentation Improve Multi-Speaker End-to-End TTS?</b> in Interspeech, 2020 
+    <a href="https://arxiv.org/pdf/2005.01245.pdf">pdf</a>
+    <a href="https://nii-yamagishilab.github.io/samples-multi-speakertacotron/augment.html">samples</a>
+    <a href="https://github.com/nii-yamagishilab/multi-speaker-tacotron">code</a>
+    </summary> 
+    
+   - Artificial speaker augmentation, using SoX speed command to speed up or slow down audio by resampling.
+   - Speaker augmentation using low-quality data, adding one-hot channel label to postnet and making encoder dependent on a dialect encoder network(LDE based network architecture).
+   - Backbone: tacotron, vocoder: WaveNets
+</details>
+
+<details>
 <summary> <b>Training Multi-Speaker Neural Text-to-Speech Systems Using Speaker-Imbalanced Speech Corpora.</b> in Interspeech, 2019 
     <a href="https://arxiv.org/pdf/1904.00771.pdf">pdf</a>
     <a href="https://nii-yamagishilab.github.io/sample-tts-speaker-imbalanced/">samples</a>
@@ -53,6 +65,11 @@ voice clone & speaker adaptation & zero/one/few-shot
    - Source model: LibriTTS(2456 speakers-586h), 16kHz. 20 sentences and 2k steps for adaptation.
    - GT \ baseline(spk) \ baseline(dec) \ Adaspeech are compared.
 </details>
+
+- **Zero-Shot Multi-Speaker Text-To-Speech with State-Of-The-Art Neural Speaker Embeddings.** in ICASSP, 2020.
+[pdf (to be upload)]
+[samples](https://nii-yamagishilab.github.io/samples-multi-speaker-tacotron)
+[code](https://github.com/nii-yamagishilab/multi-speaker-tacotron)
 
 - **Sample Efficient Adaptive Text-to-Speech.** in ICLR, 2019.
 [pdf](https://arxiv.org/pdf/1809.10460.pdf)
