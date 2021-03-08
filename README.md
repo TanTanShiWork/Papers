@@ -28,6 +28,7 @@ ________________________________________________________________________________
    - Artificial speaker augmentation, using SoX speed command to speed up or slow down audio by resampling.
    - Speaker augmentation using low-quality data, adding one-hot channel label to postnet and making encoder dependent on a dialect encoder network(LDE based network architecture).
    - Backbone: tacotron, vocoder: WaveNets
+   - Statistical significances were measured using the Mann-Whitney U test at a threshold of p=0.01
 </details>
 
 <details>
