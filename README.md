@@ -46,6 +46,10 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________________________
 
 ### [Multi-lingual](#content)
+- **Multilingual Byte2Speech Text-To-Speech Models Are Few-shot Spoken Language Learners.** in arxiv.
+[pdf](https://arxiv.org/pdf/2103.03541.pdf)
+[samples](https://mutiann.github.io/papers/byte2speech/)
+[code](https://github.com/mutiann/byte2speech)
 ___________________________________________________________________________________________________________________________
 
 ### [Expressive](#content)
